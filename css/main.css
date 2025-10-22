@@ -1,0 +1,48 @@
+@font-face {
+    font-family: rubik-bold; /* set name */
+    src: url("../assets/fonts/Rubik/static/Rubik-Bold.ttf"); /* url of the font */
+}
+body {
+    background: #5f90ea;
+    margin: 0;
+    padding: 0;
+}
+
+.paper {
+    background: white;
+    margin: 10% auto 10% auto;
+    width: 50%;
+    height: 80%;
+    padding: 10px 10px 4%;
+    z-index: 1;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+a {
+    text-decoration: none;
+    color: #135de0;
+    font-weight: bold;
+    padding: 10px 150px;
+    display: inline-block;
+    font-family: rubik-bold;
+}
+
+a:hover {
+    color: #0d47a1;
+    background: #f0f0f0;
+}
+
+a:visited {
+    color: #135de0;
+}
+
+p {
+    text-align: center;
+    font-size: 30px;
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+    padding-bottom: 3%;
+}
