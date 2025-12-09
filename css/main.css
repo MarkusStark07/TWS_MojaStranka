@@ -41,3 +41,7 @@ h1 {
     text-align: center;
     padding-bottom: 3%;
 }
+
+#back_logo_button:hover {
+    background: #f0f0f0;
+}

@@ -24,3 +24,15 @@ p {
     font-size: 130%;
     padding-bottom: 2%;
 }
+
+li {
+    text-align: left;
+}
+
+.obsah {
+    font-style: italic;
+}
+
+#back_logo_button:hover {
+    background: #f0f0f0;
+}
